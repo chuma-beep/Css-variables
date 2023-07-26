@@ -11,6 +11,6 @@ function handleUpdate(){
 
 }
 
-//set up eventListeners to effect chage and mouse move.
+//set up eventListeners to effect change and mouse move.
 inputs.forEach(input => input.addEventListener("change", handleUpdate));
 inputs.forEach(input => input.addEventListener("mousemove", handleUpdate));
